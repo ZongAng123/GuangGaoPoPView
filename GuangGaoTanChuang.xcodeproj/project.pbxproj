@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		19091209256B92A40035D00D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19091208256B92A40035D00D /* AppDelegate.m */; };
-		1909120C256B92A40035D00D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1909120B256B92A40035D00D /* SceneDelegate.m */; };
 		1909120F256B92A40035D00D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1909120E256B92A40035D00D /* ViewController.m */; };
 		19091212256B92A40035D00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19091210256B92A40035D00D /* Main.storyboard */; };
 		19091214256B92A60035D00D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19091213256B92A60035D00D /* Assets.xcassets */; };
@@ -16,6 +15,9 @@
 		1909121A256B92A60035D00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19091219256B92A60035D00D /* main.m */; };
 		19091224256B92A70035D00D /* GuangGaoTanChuangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19091223256B92A70035D00D /* GuangGaoTanChuangTests.m */; };
 		1909122F256B92A70035D00D /* GuangGaoTanChuangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1909122E256B92A70035D00D /* GuangGaoTanChuangUITests.m */; };
+		1909125B256B9D6C0035D00D /* YTPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1909125A256B9D6C0035D00D /* YTPopView.m */; };
+		19091261256B9D8F0035D00D /* UIDevice+AIFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 19091260256B9D8F0035D00D /* UIDevice+AIFExtension.m */; };
+		8566FD7B7223A8F13827A8E3 /* Pods_GuangGaoTanChuang.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C88282CF4C42047FD37F7511 /* Pods_GuangGaoTanChuang.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		19091204256B92A40035D00D /* GuangGaoTanChuang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuangGaoTanChuang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19091207256B92A40035D00D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19091208256B92A40035D00D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1909120A256B92A40035D00D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		1909120B256B92A40035D00D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		1909120D256B92A40035D00D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1909120E256B92A40035D00D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		19091211256B92A40035D00D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,13 @@
 		1909122A256B92A70035D00D /* GuangGaoTanChuangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuangGaoTanChuangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1909122E256B92A70035D00D /* GuangGaoTanChuangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuangGaoTanChuangUITests.m; sourceTree = "<group>"; };
 		19091230256B92A70035D00D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19091259256B9D6C0035D00D /* YTPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTPopView.h; sourceTree = "<group>"; };
+		1909125A256B9D6C0035D00D /* YTPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTPopView.m; sourceTree = "<group>"; };
+		1909125F256B9D8F0035D00D /* UIDevice+AIFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+AIFExtension.h"; sourceTree = "<group>"; };
+		19091260256B9D8F0035D00D /* UIDevice+AIFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+AIFExtension.m"; sourceTree = "<group>"; };
+		9F7E96B890A24C3298CB8A97 /* Pods-GuangGaoTanChuang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuangGaoTanChuang.release.xcconfig"; path = "Target Support Files/Pods-GuangGaoTanChuang/Pods-GuangGaoTanChuang.release.xcconfig"; sourceTree = "<group>"; };
+		C88282CF4C42047FD37F7511 /* Pods_GuangGaoTanChuang.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GuangGaoTanChuang.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3100D8B03041D73CBBC24F6 /* Pods-GuangGaoTanChuang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GuangGaoTanChuang.debug.xcconfig"; path = "Target Support Files/Pods-GuangGaoTanChuang/Pods-GuangGaoTanChuang.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8566FD7B7223A8F13827A8E3 /* Pods_GuangGaoTanChuang.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00138EC6347A3FEBBE81ADF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3100D8B03041D73CBBC24F6 /* Pods-GuangGaoTanChuang.debug.xcconfig */,
+				9F7E96B890A24C3298CB8A97 /* Pods-GuangGaoTanChuang.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		190911FB256B92A40035D00D = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +105,8 @@
 				19091222256B92A70035D00D /* GuangGaoTanChuangTests */,
 				1909122D256B92A70035D00D /* GuangGaoTanChuangUITests */,
 				19091205256B92A40035D00D /* Products */,
+				00138EC6347A3FEBBE81ADF5 /* Pods */,
+				AE19DE9B616DB6B03080CF55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +125,12 @@
 			children = (
 				19091207256B92A40035D00D /* AppDelegate.h */,
 				19091208256B92A40035D00D /* AppDelegate.m */,
-				1909120A256B92A40035D00D /* SceneDelegate.h */,
-				1909120B256B92A40035D00D /* SceneDelegate.m */,
 				1909120D256B92A40035D00D /* ViewController.h */,
 				1909120E256B92A40035D00D /* ViewController.m */,
+				19091259256B9D6C0035D00D /* YTPopView.h */,
+				1909125A256B9D6C0035D00D /* YTPopView.m */,
+				1909125F256B9D8F0035D00D /* UIDevice+AIFExtension.h */,
+				19091260256B9D8F0035D00D /* UIDevice+AIFExtension.m */,
 				19091210256B92A40035D00D /* Main.storyboard */,
 				19091213256B92A60035D00D /* Assets.xcassets */,
 				19091215256B92A60035D00D /* LaunchScreen.storyboard */,
@@ -137,6 +158,14 @@
 			path = GuangGaoTanChuangUITests;
 			sourceTree = "<group>";
 		};
+		AE19DE9B616DB6B03080CF55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C88282CF4C42047FD37F7511 /* Pods_GuangGaoTanChuang.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19091233256B92A70035D00D /* Build configuration list for PBXNativeTarget "GuangGaoTanChuang" */;
 			buildPhases = (
+				92C94422EEEAB904B121F679 /* [CP] Check Pods Manifest.lock */,
 				19091200256B92A40035D00D /* Sources */,
 				19091201256B92A40035D00D /* Frameworks */,
 				19091202256B92A40035D00D /* Resources */,
+				DA91EAF1524705353BED46A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,15 +292,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		92C94422EEEAB904B121F679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GuangGaoTanChuang-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA91EAF1524705353BED46A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuangGaoTanChuang/Pods-GuangGaoTanChuang-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GuangGaoTanChuang/Pods-GuangGaoTanChuang-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GuangGaoTanChuang/Pods-GuangGaoTanChuang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19091200256B92A40035D00D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1909120F256B92A40035D00D /* ViewController.m in Sources */,
+				1909125B256B9D6C0035D00D /* YTPopView.m in Sources */,
+				19091261256B9D8F0035D00D /* UIDevice+AIFExtension.m in Sources */,
 				19091209256B92A40035D00D /* AppDelegate.m in Sources */,
 				1909121A256B92A60035D00D /* main.m in Sources */,
-				1909120C256B92A40035D00D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,12 +512,14 @@
 		};
 		19091234256B92A70035D00D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3100D8B03041D73CBBC24F6 /* Pods-GuangGaoTanChuang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
 				INFOPLIST_FILE = GuangGaoTanChuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +532,14 @@
 		};
 		19091235256B92A70035D00D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7E96B890A24C3298CB8A97 /* Pods-GuangGaoTanChuang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A9MKRFMF3;
 				INFOPLIST_FILE = GuangGaoTanChuang/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
